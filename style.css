@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1000px;
+}
+
+.dragArea {
+  width: 80%;
+  height: 50vh;
+  border: 5px dashed blue;
+  margin: 100px auto;
+}
+.dragArea .dragContent {
+  padding: 50px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 0 0 20px 0 inset blue;
+}
+.dragArea .dragContent .drag-item {
+  padding: 15px;
+  margin: 5px;
+  width: 14.2857142857%;
+  border: 2px solid blue;
+  text-align: center;
+}
+
+#dropArea {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 40px;
+  margin: 0 auto;
+  border: 2px solid orangered;
+}
+#dropArea .drag-item {
+  padding: 15px;
+  margin: 5px;
+  width: 14.2857142857%;
+  border: 2px solid blue;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
